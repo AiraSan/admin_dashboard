@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="vendor/feather-icons-web/feather.css">
+    <link rel="stylesheet" href="vendor/DataTables/DataTables-1.11.3/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <section class="main">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Side Bar Start -->
+                <div class="col-12 col-lg-3 col-xl-2 vh-100 menu">
+                    <div class="d-flex justify-content-between align-items-center pt-3 mt-1 mb-4 logo">
+                        <div class="">
+                            <span>
+                                <i class="feather-shopping-bag bg-primary text-light p-2 rounded" style="font-size: 1rem;"></i>
+                            </span>
+                            <span class="font-weight-bold h5 text-primary ml-2">Shopping</span>
+                        </div>
+                        <button class="close-icon btn btn-light d-block d-lg-none">
+                            <i class="feather-x text-primary" style="font-size: 2rem;"></i>
+                        </button>
+                    </div>
+                    <!-- Nav Menu Start -->
+                    <div class="nav-menu">
+                        <ul>
+                            <li class="nav-menu-item ">
+                                <a href="index.html" class="nav-menu-link ">
+                                    <span>
+                                        <i class="feather-home"></i>
+                                        Home
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-spacer"></li>
+
+                            <li class="nav-menu-title">
+                                Test Item
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#" class="nav-menu-link">
+                                    <span>
+                                        <i class="feather-plus-circle"></i>
+                                        Test
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#" class="nav-menu-link">
+                                    <span>
+                                        <i class="feather-list"></i>
+                                        Test
+                                    </span>
+                                    <span class="badge badge-danger shadow-sm">12</span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-spacer"></li>
+
+                            <li class="nav-menu-title">
+                                Test Item
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#" class="nav-menu-link">
+                                    <span>
+                                        <i class="feather-plus-circle"></i>
+                                        Test
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#" class="nav-menu-link">
+                                    <span>
+                                        <i class="feather-list"></i>
+                                        Test
+                                    </span>
+                                    <span class="badge badge-danger shadow-sm">12</span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-spacer"></li>
+
+                            <li class="nav-menu-title">
+                                Test Item
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#" class="nav-menu-link">
+                                    <span>
+                                        <i class="feather-plus-circle"></i>
+                                        Test
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#" class="nav-menu-link">
+                                    <span>
+                                        <i class="feather-list"></i>
+                                        Test
+                                    </span>
+                                    <span class="badge badge-danger shadow-sm">12</span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-spacer"></li>
+
+                            <li class="nav-menu-title">
+                                Test Item
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#" class="nav-menu-link">
+                                    <span>
+                                        <i class="feather-plus-circle"></i>
+                                        Test
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#" class="nav-menu-link">
+                                    <span>
+                                        <i class="feather-list"></i>
+                                        Test
+                                    </span>
+                                    <span class="badge badge-danger shadow-sm">12</span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-spacer"></li>
+
+                            <li class="nav-menu-title">
+                                Test Item
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#" class="nav-menu-link">
+                                    <span>
+                                        <i class="feather-plus-circle"></i>
+                                        Test
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#" class="nav-menu-link">
+                                    <span>
+                                        <i class="feather-list"></i>
+                                        Test
+                                    </span>
+                                    <span class="badge badge-danger shadow-sm">12</span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-spacer"></li>
+
+                            <li class="nav-menu-title">
+                                Manage Item
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="add-item.html" class="nav-menu-link">
+                                    <span>
+                                        <i class="feather-plus-circle"></i>
+                                        Add Item
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="item-list.html" class="nav-menu-link active">
+                                    <span>
+                                        <i class="feather-list"></i>
+                                        Item List
+                                    </span>
+                                    <span class="badge badge-danger shadow-sm">12</span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-spacer"></li>
+
+                            <li class="nav-menu-title">
+                                Test Item
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#" class="nav-menu-link">
+                                    <span>
+                                        <i class="feather-plus-circle"></i>
+                                        Test
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#" class="nav-menu-link">
+                                    <span>
+                                        <i class="feather-list"></i>
+                                        Test
+                                    </span>
+                                    <span class="badge badge-danger shadow-sm">12</span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-spacer"></li>
+
+                            <li class="nav-menu-title">
+                                Test Item
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#" class="nav-menu-link">
+                                    <span>
+                                        <i class="feather-plus-circle"></i>
+                                        Test
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#" class="nav-menu-link">
+                                    <span>
+                                        <i class="feather-list"></i>
+                                        Test
+                                    </span>
+                                    <span class="badge badge-danger shadow-sm">12</span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-spacer"></li>
+
+                            <li class="nav-menu-title">
+                                Test Item
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#" class="nav-menu-link">
+                                    <span>
+                                        <i class="feather-plus-circle"></i>
+                                        Test
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#" class="nav-menu-link">
+                                    <span>
+                                        <i class="feather-list"></i>
+                                        Test
+                                    </span>
+                                    <span class="badge badge-danger shadow-sm">12</span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-spacer"></li> 
+                        </ul>
+                    </div>
+                    <!-- Nav Menu End -->
+                </div>
+                <!-- Side Bar End -->
+                <div class="col-12 col-lg-9 col-xl-10 vh-100 py-3 content">
+                    <!-- Nav Bar Start -->
+                    <div class="row header mb-4">
+                        <div class="col-12">
+                            <div class="p-1 bg-primary rounded d-flex justify-content-between align-items-center">
+                                <button class="menu-icon btn btn-light d-block d-lg-none">
+                                    <i class="feather-menu text-primary" style="font-size: 1rem;"></i>
+                                </button>
+                                <form action="" class="d-none d-md-block" method="post">
+                                    <div class="form-inline">
+                                        <input type="text" placeholder="Search Product.." class="form-control mr-3">
+                                        <button class="btn btn-light">
+                                            <i class="feather-search text-primary"></i>
+                                        </button>
+                                    </div>
+                                </form>
+                                <div class="dropdown">
+                                    <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      <img src="img/user/zarmani.jpg" class="profile" alt="">
+                                      Zarmani
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                      <a class="dropdown-item" href="#">Action</a>
+                                      <a class="dropdown-item" href="#">Another action</a>
+                                      <div class="dropdown-divider"></div>
+                                      <a class="dropdown-item" href="#">Log Out</a>
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Nav Bar End -->
+                    <!-- Content Start -->
+                    <div class="row">
+                        <!-- Breadcrumb Start -->
+                        <div class="col-12">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb bg-white">
+                                  <li class="breadcrumb-item"><a href="/project/index.html"><i class="feather-home"></i></a></li>
+                                  <li class="breadcrumb-item active" aria-current="page">Item List</li>
+                                </ol>
+                              </nav>
+                        </div>
+                        <!-- Breadcrumb End -->
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center mb-4">
+                                        <h4 class="mb-0">
+                                            <i class="feather-list text-primary"></i> Item List
+                                        </h4>
+                                        <div>
+                                            <a>
+                                                <i class="btn btn-outline-secondary expand-icon feather-maximize-2"></i>
+                                            </a>
+                                            <a href="add-item.html">
+                                                <i class="btn btn-outline-primary feather-plus-circle"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <table id="example" class="table table-bordered table-hover" style="width:100%">
+                                            <thead>
+                                                <tr>
+                                                    <th>ID</th>
+                                                    <th>Name</th>
+                                                    <th>Quantity</th>
+                                                    <th><a href="#" class="badge badge-secondary"><i class="feather-dollar-sign"></i></a> Price</th>
+                                                    <th>Categories</th>
+                                                    <th><a href="#" class="badge badge-secondary"><i class="feather-package"></i></a> Order</th>
+                                                    <th><a href="#" class="badge badge-secondary"><i class="feather-calendar"></i></a> Date</th>
+                                                    <th><a href="#" class="badge badge-secondary"><i class="feather-clock"></i></a> Time</th>
+                                            </thead>
+                                            <tbody id="tbody">
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td><img src="img/products/samsung.png" class="product" alt=""> Samsung</td>
+                                                    <td>3</td>
+                                                    <td>299,000</td>
+                                                    <td>Phone</td>
+                                                    <td>3</td>
+                                                    <td>24 Nov 2021</td>
+                                                    <td>11:38</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>2</td>
+                                                    <td><img src="img/products/huawei.png" class="product" alt=""> Huawei</td>
+                                                    <td>2</td>
+                                                    <td>239,000</td>
+                                                    <td>Phone</td>
+                                                    <td>0</td>
+                                                    <td>24 Nov 2021</td>
+                                                    <td>1:38</td>
+                                                </tr>
+                                                    <td>3</td>
+                                                    <td><img src="img/products/xiaomi.png" class="product" alt=""> Xiaomi</td>
+                                                    <td>3</td>
+                                                    <td>199,000</td>
+                                                    <td>Phone</td>
+                                                    <td>2</td>
+                                                    <td>24 Nov 2021</td>
+                                                    <td>7:30</td>
+                                                <tr>
+                                                    <td>4</td>
+                                                    <td><img src="img/products/one-plus.png" class="product" alt=""> One Plus</td>
+                                                    <td>1</td>
+                                                    <td>799,000</td>
+                                                    <td>Phone</td>
+                                                    <td>0</td>
+                                                    <td>24 Nov 2021</td>
+                                                    <td>6:03</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>5</td>
+                                                    <td><img src="img/products/nokia.png" class="product" alt=""> Nokia</td>
+                                                    <td>12</td>
+                                                    <td>349,900</td>
+                                                    <td>Phone</td>
+                                                    <td>2</td>
+                                                    <td>24 Nov 2021</td>
+                                                    <td>14:48</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>6</td>
+                                                    <td><img src="img/products/acer.png" class="product" alt=""> Acer</td>
+                                                    <td>21</td>
+                                                    <td>899,000</td>
+                                                    <td>Computer</td>
+                                                    <td>9</td>
+                                                    <td>24 Nov 2021</td>
+                                                    <td>11:53</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>7</td>
+                                                    <td><img src="img/products/dell.png" class="product" alt=""> Dell</td>
+                                                    <td>19</td>
+                                                    <td>999,000</td>
+                                                    <td>Computer</td>
+                                                    <td>3</td>
+                                                    <td>24 Nov 2021</td>
+                                                    <td>21:12</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>8</td>
+                                                    <td><img src="img/products/apple.png" class="product" alt=""> Apple</td>
+                                                    <td>6</td>
+                                                    <td>2299,000</td>
+                                                    <td>Computer</td>
+                                                    <td>1</td>
+                                                    <td>24 Nov 2021</td>
+                                                    <td>19:30</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>9</td>
+                                                    <td><img src="img/products/apple-black-logo.png" class="product" alt=""> Iphone</td>
+                                                    <td>11</td>
+                                                    <td>1299,000</td>
+                                                    <td>Phone</td>
+                                                    <td>4</td>
+                                                    <td>24 Nov 2021</td>
+                                                    <td>12:01</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10</td>
+                                                    <td><img src="img/products/lg.png" class="product" alt=""> LG Tv</td>
+                                                    <td>19</td>
+                                                    <td>249,000</td>
+                                                    <td>TV</td>
+                                                    <td>7</td>
+                                                    <td>24 Nov 2021</td>
+                                                    <td>8:45</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>11</td>
+                                                    <td><img src="img/products/fan.png" class="product" alt=""> Fan (type-1)</td>
+                                                    <td>23</td>
+                                                    <td>39,000</td>
+                                                    <td>Electronic</td>
+                                                    <td>4</td>
+                                                    <td>24 Nov 2021</td>
+                                                    <td>11:38</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>12</td>
+                                                    <td><img src="img/products/air-conditioner.png" class="product" alt=""> Air Conditioner</td>
+                                                    <td>31</td>
+                                                    <td>249,000</td>
+                                                    <td>Electronic</td>
+                                                    <td>1</td>
+                                                    <td>24 Nov 2021</td>
+                                                    <td>11:38</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>13</td>
+                                                    <td><img src="img/products/ceiling-fan.png" class="product" alt=""> Fan (type-2)</td>
+                                                    <td>26</td>
+                                                    <td>59,000</td>
+                                                    <td>Electronic</td>
+                                                    <td>6</td>
+                                                    <td>24 Nov 2021</td>
+                                                    <td>11:38</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>14</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>15</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>16</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>17</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>18</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>19</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>20</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>21</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>22</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>23</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>24</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>25</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Content End -->
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="vendor/JQuery/jquery.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/DataTables/datatables.min.js"></script>
+    <script src="vendor/DataTables/DataTables-1.11.3/js/dataTables.bootstrap4.min.js"></script>
+    <script src="vendor/bootstrap-4.5.3/js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+        $('#example').DataTable();
+        $('.expand-icon').click(function(){
+            $(this).closest('.card').toggleClass('expand');
+            $(this).toggleClass('feather-maximize-2').toggleClass('feather-minimize-2')
+        })
+    </script>
+</body>
+</html>

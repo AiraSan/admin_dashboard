@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="vendor/feather-icons-web/feather.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <section class="main">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Side Bar Start -->
+                <div class="col-12 col-lg-3 col-xl-2 vh-100 menu">
+                    <div class="d-flex justify-content-between align-items-center pt-3 mt-1 mb-4 logo">
+                        <div class="">
+                            <span>
+                                <i class="feather-shopping-bag bg-primary text-light p-2 rounded" style="font-size: 1rem;"></i>
+                            </span>
+                            <span class="font-weight-bold h5 text-primary ml-2">Shopping</span>
+                        </div>
+                        <button class="close-icon btn btn-light d-block d-lg-none">
+                            <i class="feather-x text-primary" style="font-size: 2rem;"></i>
+                        </button>
+                    </div>
+                    <!-- Nav Menu Start -->
+                    <div class="nav-menu">
+                        <ul>
+                            <li class="nav-menu-item ">
+                                <a href="index.html" class="nav-menu-link active">
+                                    <span>
+                                        <i class="feather-home"></i>
+                                        Home
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-item ">
+                                <a href="#" class="nav-menu-link">
+                                    <span>
+                                        <i class="feather-shopping-bag"></i>
+                                        Today Orders
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-item ">
+                                <a href="#" class="nav-menu-link">
+                                    <span>
+                                        <i class="feather-grid"></i>
+                                        Recent Orders
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-spacer"></li>
+
+                            <li class="nav-menu-title">
+                                Test Item
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#" class="nav-menu-link">
+                                    <span>
+                                        <i class="feather-plus-circle"></i>
+                                        Test
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#" class="nav-menu-link">
+                                    <span>
+                                        <i class="feather-list"></i>
+                                        Test
+                                    </span>
+                                    <span class="badge badge-danger shadow-sm">12</span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-spacer"></li>
+
+                            <li class="nav-menu-title">
+                                Test Item
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#" class="nav-menu-link">
+                                    <span>
+                                        <i class="feather-plus-circle"></i>
+                                        Test
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#" class="nav-menu-link">
+                                    <span>
+                                        <i class="feather-list"></i>
+                                        Test
+                                    </span>
+                                    <span class="badge badge-danger shadow-sm">12</span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-spacer"></li>
+
+                            <li class="nav-menu-title">
+                                Test Item
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#" class="nav-menu-link">
+                                    <span>
+                                        <i class="feather-plus-circle"></i>
+                                        Test
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#" class="nav-menu-link">
+                                    <span>
+                                        <i class="feather-list"></i>
+                                        Test
+                                    </span>
+                                    <span class="badge badge-danger shadow-sm">12</span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-spacer"></li>
+
+                            <li class="nav-menu-title">
+                                Test Item
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#" class="nav-menu-link">
+                                    <span>
+                                        <i class="feather-plus-circle"></i>
+                                        Test
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#" class="nav-menu-link">
+                                    <span>
+                                        <i class="feather-list"></i>
+                                        Test
+                                    </span>
+                                    <span class="badge badge-danger shadow-sm">12</span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-spacer"></li>
+
+                            <li class="nav-menu-title">
+                                Test Item
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#" class="nav-menu-link">
+                                    <span>
+                                        <i class="feather-plus-circle"></i>
+                                        Test
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#" class="nav-menu-link">
+                                    <span>
+                                        <i class="feather-list"></i>
+                                        Test
+                                    </span>
+                                    <span class="badge badge-danger shadow-sm">12</span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-spacer"></li>
+
+                            <li class="nav-menu-title">
+                                Manage Item
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="add-item.html" class="nav-menu-link">
+                                    <span>
+                                        <i class="feather-plus-circle"></i>
+                                        Add Item
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="item-list.html" class="nav-menu-link">
+                                    <span>
+                                        <i class="feather-list"></i>
+                                        Item List
+                                    </span>
+                                    <span class="badge badge-danger shadow-sm">12</span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-spacer"></li>
+
+                            <li class="nav-menu-title">
+                                Test Item
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#" class="nav-menu-link">
+                                    <span>
+                                        <i class="feather-plus-circle"></i>
+                                        Test
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#" class="nav-menu-link">
+                                    <span>
+                                        <i class="feather-list"></i>
+                                        Test
+                                    </span>
+                                    <span class="badge badge-danger shadow-sm">12</span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-spacer"></li>
+
+                            <li class="nav-menu-title">
+                                Test Item
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#" class="nav-menu-link">
+                                    <span>
+                                        <i class="feather-plus-circle"></i>
+                                        Test
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#" class="nav-menu-link">
+                                    <span>
+                                        <i class="feather-list"></i>
+                                        Test
+                                    </span>
+                                    <span class="badge badge-danger shadow-sm">12</span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-spacer"></li>
+
+                            <li class="nav-menu-title">
+                                Test Item
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#" class="nav-menu-link">
+                                    <span>
+                                        <i class="feather-plus-circle"></i>
+                                        Test
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-item">
+                                <a href="#" class="nav-menu-link">
+                                    <span>
+                                        <i class="feather-list"></i>
+                                        Test
+                                    </span>
+                                    <span class="badge badge-danger shadow-sm">12</span>
+                                </a>
+                            </li>
+                            <li class="nav-menu-spacer"></li> 
+                        </ul>
+                    </div>
+                    <!-- Nav Menu End -->
+                </div>
+                <!-- Side Bar End -->
+                <div class="col-12 col-lg-9 col-xl-10 vh-100 py-3 content">
+                    <!-- Nav Bar Start -->
+                    <div class="row header mb-4">
+                        <div class="col-12">
+                            <div class="p-1 bg-primary rounded d-flex justify-content-between align-items-center">
+                                <button class="menu-icon btn btn-light d-block d-lg-none">
+                                    <i class="feather-menu text-primary" style="font-size: 1rem;"></i>
+                                </button>
+                                <form action="" class="d-none d-md-block" method="post">
+                                    <div class="form-inline">
+                                        <input type="text" placeholder="Search Product.." class="form-control mr-3">
+                                        <button class="btn btn-light">
+                                            <i class="feather-search text-primary"></i>
+                                        </button>
+                                    </div>
+                                </form>
+                                <div class="dropdown">
+                                    <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      <img src="img/user/zarmani.jpg" class="profile" alt="">
+                                      Zarmani
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                      <a class="dropdown-item" href="#">Action</a>
+                                      <a class="dropdown-item" href="#">Another action</a>
+                                      <div class="dropdown-divider"></div>
+                                      <a class="dropdown-item" href="#">Log Out</a>
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Nav Bar End -->
+                    <!-- Content Start -->
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-3">
+                            <div class="card status-card mb-4">
+                                <div class="card-body">
+                                    <div class="row align-items-center">
+                                        <div class="col-3">
+                                            <i class="feather-shopping-bag h1 text-primary"></i>
+                                        </div>
+                                        <div class="col-9">
+                                            <p class="mb-1 h3 font-weight-bold">
+                                                <span class="counterup">13</span>
+                                            </p>
+                                            <p class="text-muted mb-0">Today Orders</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-3">
+                            <div class="card status-card mb-4">
+                                <div class="card-body">
+                                    <div class="row align-items-center">
+                                        <div class="col-3">
+                                            <i class="feather-users h1 text-primary"></i>
+                                        </div>
+                                        <div class="col-9">
+                                            <p class="mb-1 h3 font-weight-bold">
+                                                <span class="counterup">2034</span>
+                                            </p>
+                                            <p class="text-muted mb-0">Today Users</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-3">
+                            <div class="card status-card mb-4" onclick="go('item-list.html')">
+                                <div class="card-body">
+                                    <div class="row align-items-center">
+                                        <div class="col-3">
+                                            <i class="feather-package h1 text-primary"></i>
+                                        </div>
+                                        <div class="col-9">
+                                            <p class="mb-1 h3 font-weight-bold">
+                                                <span class="counterup">195</span>
+                                            </p>
+                                            <p class="text-muted mb-0">New Items</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-6 col-xl-3">
+                            <div class="card status-card mb-4">
+                                <div class="card-body">
+                                    <div class="row align-items-center">
+                                        <div class="col-3">
+                                            <i class="feather-map-pin h1 text-primary"></i>
+                                        </div>
+                                        <div class="col-9">
+                                            <p class="mb-1 h3 font-weight-bold">
+                                                <span class="counterup">14</span>
+                                            </p>
+                                            <p class="text-muted mb-0">Support Location</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row align-items-end">
+                        <div class="col-12 col-xl-7 mb-4">
+                            <div class="card shadow">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <h4 class="mb-0">Order & Visitors</h4>
+                                        <div class="">
+                                            <img src="img/user/avatar1.jpg" class="avatar-img rounded-circle" alt="">
+                                            <img src="img/user/avatar2.jpg" class="avatar-img rounded-circle" alt="">
+                                            <img src="img/user/avatar3.jpg" class="avatar-img rounded-circle" alt="">
+                                            <img src="img/user/avatar4.jpg" class="avatar-img rounded-circle" alt="">
+                                            <img src="img/user/avatar5.jpg" class="avatar-img rounded-circle" alt="">
+                                        </div>
+                                    </div>
+                                    <canvas id="myChart" height="150"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-5 mb-4">
+                            <div class="card card-carousel-container">
+                                <div class="card-body">
+                                    <div id="carouselExampleIndicators" class="carousel card-carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators" style="bottom: -40px">
+                                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active bg-secondary"></li>
+                                          <li data-target="#carouselExampleIndicators" data-slide-to="1" class="bg-secondary"></li>
+                                          <li data-target="#carouselExampleIndicators" data-slide-to="2" class="bg-secondary"></li>
+                                          <li data-target="#carouselExampleIndicators" data-slide-to="3" class="bg-secondary"></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                            <div class="card-item">
+                                                <div class="d-flex justify-content-between align-items-end">
+                                                    <div class="">
+                                                        <h4 class="mb-0">Barbel Tea</h4>
+                                                        <p class="text-muted mb-2">700 MMK</p>
+                                                        <div class="progress mb-3">
+                                                          <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                                        </div>
+                                                    </div>
+                                                    <img src="img/items/item1.png" class="card-item-img" alt="">
+                                                </div>
+                                            </div>
+                                          </div>
+                                          <div class="carousel-item">
+                                            <div class="card-item">
+                                                <div class="d-flex justify-content-between align-items-end">
+                                                    <div class="">
+                                                        <h4 class="mb-0">USB Stick</h4>
+                                                        <p class="text-muted mb-2">7000 MMK</p>
+                                                        <div class="progress">
+                                                          <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                                        </div>
+                                                    </div>
+                                                    <img src="img/items/item2.png" class="card-item-img" alt="">
+                                                </div>
+                                            </div>
+                                          </div>
+                                          <div class="carousel-item">
+                                            <div class="card-item">
+                                                <div class="d-flex justify-content-between align-items-end">
+                                                    <div class="">
+                                                        <h4 class="mb-0">Book</h4>
+                                                        <p class="text-muted mb-2">1700 MMK</p>
+                                                        <div class="progress">
+                                                          <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                                        </div>
+                                                    </div>
+                                                    <img src="img/items/item3.png" class="card-item-img" alt="">
+                                                </div>
+                                            </div>
+                                          </div>
+                                          <div class="carousel-item">
+                                            <div class="card-item">
+                                                <div class="d-flex justify-content-between align-items-end">
+                                                    <div class="">
+                                                        <h4 class="mb-0">Name Card</h4>
+                                                        <p class="text-muted mb-2">500 MMK</p>
+                                                        <div class="progress">
+                                                          <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                                        </div>
+                                                    </div>
+                                                    <img src="img/items/item4.png" class="card-item-img" alt="">
+                                                </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-xl-5">
+                            <div class="card mb-4">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                        <h4 class="mb-0">Order & Places</h4>
+                                        <div class="">
+                                            <i class="feather-pie-chart h3 text-primary cursor" data-toggle="tooltip" data-placement="top" title="Places"></i>
+                                        </div>
+                                    </div>
+                                    <canvas id="dougnut" height="200"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xl-7">
+                            <div class="card mb-4 overflow-hidden">
+                                <div class="d-flex justify-content-between align-items-center p-3">
+                                    <h5 class="mb-0">Subscriber List</h5>
+                                    <div class="">
+                                        <i class="feather-more-vertical h3 text-black cursor"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <table class="table sub-table table-hover mb-0">
+                                        <thead>
+                                           <tr>
+                                              <th>Name</th>
+                                              <th>Company</th>
+                                              <th>Start Date</th>
+                                              <th>Status</th>
+                                              <th>Amount</th>
+                                              <th>Action</th>
+                                           </tr>
+                                        </thead>
+                                        <tbody>
+                                           <tr>
+                                              <td>Michael</td>
+                                              <td>ABC Fintech LTD.</td>
+                                              <td>Jan 1,2019</td>
+                                              <td><span class="badge badge-danger">Close</span></td>
+                                              <td>$ 1000.00</td>
+                                              <td class="center-align"><a href="#"><i class="feather-trash text-danger"></i></a></td>
+                                           </tr>
+                                           <tr>
+                                              <td>Aldin Rakić</td>
+                                              <td>ACME Pvt LTD.</td>
+                                              <td>Jan 10,2019</td>
+                                              <td><span class="badge badge-success">Open</span></td>
+                                              <td>$ 3000.00</td>
+                                              <td class="center-align"><a href="#"><i class="feather-trash text-danger"></i></a></td>
+                                           </tr>
+                                           <tr>
+                                              <td>İris Yılmaz</td>
+                                              <td>Collboy Tech LTD.</td>
+                                              <td>Jan 12,2019</td>
+                                              <td><span class="badge badge-success">Open</span></td>
+                                              <td>$ 2000.00</td>
+                                              <td class="center-align"><a href="#"><i class="feather-trash text-danger"></i></a></td>
+                                           </tr>
+                                           <tr>
+                                              <td>Lidia Livescu</td>
+                                              <td>My Fintech LTD.</td>
+                                              <td>Jan 14,2019</td>
+                                              <td><span class="badge badge-danger">Close</span></td>
+                                              <td>$ 1100.00</td>
+                                              <td class="center-align"><a href="#"><i class="feather-trash text-danger"></i></a></td>
+                                           </tr>
+                                           <tr>
+                                              <td>Livescu</td>
+                                              <td>My Brazee LTD.</td>
+                                              <td>Jan 14,2019</td>
+                                              <td><span class="badge badge-danger">Close</span></td>
+                                              <td>$ 1400.00</td>
+                                              <td class="center-align"><a href="#"><i class="feather-trash text-danger"></i></a></td>
+                                           </tr>
+                                        </tbody>
+                                     </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Content End -->
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="vendor/JQuery/jquery-3.3.1.min.js"></script>
+    <script src="vendor/chart_js/chart.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap-4.5.3/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/waypoint/lib/jquery.waypoints.min.js"></script>
+    <script src="vendor/counter_up/counterup.min.js"></script>
+    <script src="js/dashboard.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
